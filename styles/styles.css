@@ -1,4 +1,34 @@
-.container {
+.container-main {
+  margin: auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  max-width: 35%;
+}
+
+.google-img {
+  margin: auto;
+  width: 50%;
+}
+
+input[name='searchbar'] {
+  border-radius: 20px;
+  height: 30px;
+  border-color: lightgray;
+  border-width: 1px;
+  margin: 20px;
+}
+
+.container-btns {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0px 10px;
+  cursor: pointer;
 }
