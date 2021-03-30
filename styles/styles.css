@@ -1,3 +1,25 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav a {
+  margin-inline: 5px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-right {
+  float: right;
+}
+
 .container-main {
   margin: auto;
   display: flex;
@@ -31,4 +53,5 @@ button {
   padding: 10px;
   margin: 0px 10px;
   cursor: pointer;
+  letter-spacing: 0.2px;
 }
