@@ -25,12 +25,20 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 200px;
+  width: 220px;
 }
 
 .menu {
   height: 20px;
   width: 20px;
+  border: solid 10px white;
+}
+
+.menu:hover {
+  cursor: pointer;
+  border: solid 10px #efefef;
+  border-radius: 50%;
+  background-color: #efefef;
 }
 
 .avatar {
@@ -39,6 +47,13 @@ nav a:hover {
   border-radius: 50%;
   object-fit: cover;
   object-position: top;
+  border: solid 5px white;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  border: solid 5px #efefef;
+  border-radius: 50%;
 }
 
 .container-main {
@@ -69,10 +84,16 @@ input[name='searchbar'] {
 }
 
 button {
-  border: none;
+  background-color: #efefef;
+  border: solid #efefef 1px;
   border-radius: 5px;
   padding: 10px;
   margin: 0px 10px;
   cursor: pointer;
   letter-spacing: 0.2px;
+}
+
+button:hover {
+  border: solid 1px #a0a0a0;
+  box-shadow: 0 8px 10px -10px #a0a0a0;
 }
