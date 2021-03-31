@@ -73,12 +73,37 @@ nav a:hover {
   width: 50%;
 }
 
-input[name='searchbar'] {
+.input-area {
+  border: solid 1px #efefef;
   border-radius: 20px;
-  height: 35px;
-  border-color: lightgray;
-  border-width: 1px;
+  height: 40px;
   margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10px;
+}
+
+.magnifying-glass-icon {
+  height: 25px;
+  width: auto;
+}
+
+.search-by-voice-icon {
+  height: 30px;
+}
+
+.input-left,
+.input-right {
+  display: flex;
+}
+
+input[name='searchbar'] {
+  border: 0;
+}
+
+input[name='searchbar']:focus {
+  outline: none;
 }
 
 .container-btns {
