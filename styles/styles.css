@@ -84,13 +84,21 @@ nav a:hover {
   padding-inline: 10px;
 }
 
+.input-area:hover {
+  box-shadow: 0 0 10px #efefef;
+}
+
 .magnifying-glass-icon {
   height: 25px;
   width: auto;
 }
 
 .search-by-voice-icon {
-  height: 30px;
+  height: 35px;
+}
+
+.search-by-voice-icon:hover {
+  cursor: pointer;
 }
 
 .input-left,
@@ -100,6 +108,7 @@ nav a:hover {
 
 input[name='searchbar'] {
   border: 0;
+  min-width: 200%;
 }
 
 input[name='searchbar']:focus {
